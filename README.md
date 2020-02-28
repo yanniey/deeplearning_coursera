@@ -1,28 +1,41 @@
-A 5-course specialization by deeplearning.ai
+# Deep Learning
+
+A 5-course specialization by deeplearning.ai on Coursera
 
 1. Neural Networks and Deep Learning
-	* Quiz
-	* Programming Assignments
+	* Quiz & Programming Assignments
+		* Week 2: Building cat classifier with Logistic Regression
+		* Week 3: Planar data classification with a shallow neural network (1 hidden layer)
+		* Week 4: Building a cat classifier step-by-step, and with a deep neural network
 
 2. Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
-	* Quiz 
-	* Programming Assignments
+	* Quiz & Programming Assignments
 		* Week 1: Initialization (Zeros, Random & He), regularization, gradient checking
-		* He initialization works well for networks with ReLU activations.
+			* He initialization works well for networks with ReLU activations
+		* Week 2: Optimization (Adam, RMS prop, mini-batch gradient descent, momentum)
+		* Week 3: Tensorflow tutorial on the SIGNS dataset
 
 3. Structuring Machine Learning Projects
-	Quiz and Programming Assignments
+	* Quiz & Programming Assignments
 
 4. Convolutional Neural Networks
-	Quiz and Programming Assignments
+	* Quiz & Programming Assignments
+		* Week 1: Implement ConvNet using Tensorflow for classification task (SIGNS hand signal dataset)
+		* Week 2: Keras tutorial, Residual Network
+		* Week 3: Car detection with YOLO(You only look once)
+		* Week 4: Art generation with Neural Style Transfer, Face Recognition
 
 5. Sequence Models
-	Quiz and Programming Assignments
+	* Quiz & Programming Assignments
+		* Week 1: Building a recurrent neural network - step by step, Dinosaur Island - Character-Level Language Modeling, Jazz improvisation with LSTM
+		* Week 2: Operations on word vectors - Debiasing ,Emojify
+		* Week 3: Neural Machine Translation with Attention, Trigger word detection
 
 
 
 ====== 
-Course 2 
+
+## Course 2: Hyperparameter tuning, Regularization and Optimization
 
 Week 1 
 Regularization 
@@ -51,10 +64,8 @@ Regularization
 
 Gradient checking
 1. Don't use in training - we should only use it to debug
+
 2. Gradient checking doesn't work with dropout (due to the randomness), so we should turn off dropout (e.g. using `keep-prob = 1`)
-
-
-
 
 
 * Make sure dev and test sets have the same distribution
@@ -78,6 +89,7 @@ Solutions:
 
 ======
 
+Course 2: Hyperparameter tuning, Regularization and Optimization
 
 Week 2
 Optimization algorithms
